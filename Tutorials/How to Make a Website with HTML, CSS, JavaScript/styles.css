@@ -1,8 +1,11 @@
+@import url('content.css');
+
 :root{
     --darkgray: #212329;
     --brightred:#F9423d;
     --white: #fff;
     --lightred: #f9433dcc;
+    --lightblue:#337af1;
 }
 
 *{
@@ -72,7 +75,7 @@
 }
 
 
-@media screen and (max-width: 760px){
+@media screen and (max-width: 768px){
     .nav-container{
         position: relative;
     }
